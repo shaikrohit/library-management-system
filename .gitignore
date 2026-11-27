@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Netlify local state
+.netlify/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
